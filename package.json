@@ -1,6 +1,6 @@
 {
   "name": "@swup/slide-theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Theme for slide in/out animation",
   "main": "lib/index.js",
   "scripts": {
