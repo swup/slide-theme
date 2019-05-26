@@ -1,6 +1,6 @@
 {
   "name": "@swup/slide-theme",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Theme for slide in/out animation",
   "main": "lib/index.js",
   "scripts": {
@@ -32,6 +32,6 @@
     "webpack-cli": "^3.1.1"
   },
   "dependencies": {
-    "@swup/theme": "^1.0.5"
+    "@swup/theme": "^1.0.6"
   }
 }
