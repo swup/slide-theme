@@ -1,7 +1,7 @@
 # Swup Slide Theme
 Theme for slide in/out animation. Makes content slide out (+fade) in one direction, and slide in from the other.
 
-## Instalation
+## Installation
 
 This theme can be installed with npm
 
