@@ -1,8 +1,8 @@
 {
   "name": "@swup/slide-theme",
-  "version": "1.0.5",
   "description": "Theme for slide in/out animation",
   "main": "lib/index.js",
+  "version": "2.0.0",
   "scripts": {
     "build": "webpack-cli",
     "prepublish": "npm run build"
