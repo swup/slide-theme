@@ -1,24 +1,25 @@
 # Swup Slide Theme
-Theme for slide in/out animation. Makes content slide out (+fade) in one direction, and slide in from the other.
+
+A [swup](https://swup.js.org) theme for in/out slide animations.
+
+Makes the content slide out to one direction, and slide in from the other.
 
 ## Installation
 
-This theme can be installed with npm
+Install the theme from npm and import it into your bundle.
 
 ```bash
 npm install @swup/slide-theme
 ```
 
-and included with import
-
-```javascript
+```js
 import SwupSlideTheme from '@swup/slide-theme';
 ```
 
-or included from the dist folder
+Or include the minified production file from a CDN:
 
 ```html
-<script src="./dist/SwupSlideTheme.js"></script>
+<script src="https://unpkg.com/@swup/slide-theme@2"></script>
 ```
 
 ## Usage
@@ -32,10 +33,11 @@ const swup = new Swup({
 ```
 
 ## Options
-### mainElement 
-Changes the selector of the elements to slide in/out.  
-Defaults to `#swup`.
+
+### mainElement
+
+Changes the selector of the elements to slide in/out. Defaults to `#swup`.
 
 ### reversed
-Makes the direction reversed. 
-Defaults to `false`. 
+
+Reverses the transition direction. Defaults to `false`.
