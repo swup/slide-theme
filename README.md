@@ -41,3 +41,16 @@ Changes the selector of the elements to slide in/out. Defaults to `#swup`.
 ### reversed
 
 Reverses the transition direction. Defaults to `false`.
+
+## Customization
+
+You can override the plugin's custom properties to fine-tweak the animation.
+These are the defaults:
+
+```css
+html {
+  --swup-slide-theme-translate: 60px;
+  --swup-slide-theme-duration-fade: .3s;
+  --swup-slide-theme-duration-slide: .4s;
+}
+```
