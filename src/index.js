@@ -10,7 +10,7 @@ export default class SwupSlideTheme extends Theme {
 		reversed: false
 	};
 
-	constructor(options) {
+	constructor(options = {}) {
 		super();
 		this.options = { ...this.defaults, ...options };
 	}
