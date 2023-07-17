@@ -1,5 +1,6 @@
 {
   "name": "@swup/slide-theme",
+  "amdName": "SwupSlideTheme",
   "version": "2.0.0",
   "description": "A swup theme for in/out slide animations",
   "type": "module",
@@ -29,6 +30,7 @@
     "url": "https://github.com/swup/slide-theme.git"
   },
   "dependencies": {
+    "@swup/plugin": "^2.0.3",
     "@swup/theme": "^1.0.0"
   },
   "devDependencies": {
