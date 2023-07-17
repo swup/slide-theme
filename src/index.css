@@ -1,26 +1,26 @@
 :root {
-    --swup-slide-duration: .3s;
-    --swup-slide-translate: 60px;
-    --swup-slide-direction: 1;
-    --swup-slide-translate-forward: calc(var(--swup-slide-direction) * var(--swup-slide-translate));
-    --swup-slide-translate-backward: calc((0 - var(--swup-slide-direction)) * var(--swup-slide-translate));
+	--swup-slide-duration: .3s;
+	--swup-slide-translate: 60px;
+	--swup-slide-direction: 1;
+	--swup-slide-translate-forward: calc(var(--swup-slide-direction) * var(--swup-slide-translate));
+	--swup-slide-translate-backward: calc((0 - var(--swup-slide-direction)) * var(--swup-slide-translate));
 }
 
 .swup-transition-main {
-    opacity: 1;
-    transition: opacity var(--swup-slide-duration), transform calc(var(--swup-slide-duration) * 1.3333)));
-    transform: translate3d(0, 0, 0);
+	opacity: 1;
+	transition: opacity var(--swup-slide-duration), transform calc(var(--swup-slide-duration) * 1.3333)));
+	transform: translate3d(0, 0, 0);
 }
 
 html.swup-theme-reverse {
-    --swup-slide-direction: -1;
+	--swup-slide-direction: -1;
 }
 
 html.is-animating .swup-transition-main {
-    opacity: 0;
-    transform: translate3d(0, var(--swup-slide-translate-backward), 0);
+	opacity: 0;
+	transform: translate3d(0, var(--swup-slide-translate-backward), 0);
 }
 
 html.is-animating.is-leaving .swup-transition-main {
-    transform: translate3d(0, var(--swup-slide-translate-forward), 0);
+	transform: translate3d(0, var(--swup-slide-translate-forward), 0);
 }
