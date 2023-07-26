@@ -1,21 +1,18 @@
 import Theme from '@swup/theme';
-import styles from './index.styl';
 
-export default class SlideTheme extends Theme {
-	name = 'SlideTheme';
+import styles from './index.css';
 
-	constructor(options) {
+export default class SwupSlideTheme extends Theme {
+	name = 'SwupSlideTheme';
+
+	defaults = {
+		mainElement: '#swup',
+		reversed: false
+	};
+
+	constructor(options = {}) {
 		super();
-
-		const defaultOptions = {
-			mainElement: '#swup',
-			reversed: false
-		};
-
-		this.options = {
-			...defaultOptions,
-			...options
-		};
+		this.options = { ...this.defaults, ...options };
 	}
 
 	mount() {
