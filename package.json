@@ -30,7 +30,6 @@
     "url": "https://github.com/swup/slide-theme.git"
   },
   "dependencies": {
-    "@swup/plugin": "^4.0.0",
     "@swup/theme": "^2.0.0"
   },
   "devDependencies": {
