@@ -10,7 +10,8 @@
   "exports": "./dist/index.modern.js",
   "unpkg": "./dist/index.umd.js",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "scripts": {
     "build": "swup package:build",
