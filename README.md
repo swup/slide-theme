@@ -50,7 +50,7 @@ These are the defaults:
 ```css
 body {
   --swup-slide-theme-translate: 60px;
-  --swup-slide-theme-duration-fade: .3s;
-  --swup-slide-theme-duration-slide: .4s;
+  --swup-slide-theme-duration-fade: 0.3s;
+  --swup-slide-theme-duration-slide: 0.4s;
 }
 ```
