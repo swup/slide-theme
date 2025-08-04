@@ -2,22 +2,16 @@ import Theme from '@swup/theme';
 
 import styles from './index.css';
 
-type Options = {
-	mainElement: string;
-	reversed: boolean;
-};
+type Options = { mainElement: string; reversed: boolean };
 
 export default class SwupSlideTheme extends Theme {
 	name = 'SwupSlideTheme';
 
-	defaults: Options = {
-		mainElement: '#swup',
-		reversed: false
-	};
+	defaults: Options = { mainElement: '#swup', reversed: false };
 
 	options: Options;
 
-	constructor(options = {}) {
+	constructor(options: Partial<Options> = {}) {
 		super();
 		this.options = { ...this.defaults, ...options };
 	}
