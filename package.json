@@ -1,7 +1,7 @@
 {
   "name": "@swup/slide-theme",
   "amdName": "SwupSlideTheme",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A swup theme for in/out slide animations",
   "type": "module",
   "source": "src/index.ts",
